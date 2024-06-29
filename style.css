@@ -5,10 +5,10 @@
 }
 
 #main {
-    width: 100%;
+    background: #212227;
     height: 100vh;
     padding: 2.5rem;
-    background: #212227;
+    width: 100%;
 }
 
 #content {
@@ -20,7 +20,17 @@
     width: 100%;
 }
 
+#about-me-wrapper {
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+#about-me-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
 #profile-pic {
-    width: 55vh;
-    padding: 2.5rem;
+    width: 100%;
 }
