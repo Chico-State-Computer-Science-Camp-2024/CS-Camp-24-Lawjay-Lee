@@ -1,36 +1,68 @@
-* {
+:root {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#main {
-    background: #212227;
-    height: 100vh;
-    padding: 2.5rem;
-    width: 100%;
+* {
+    /* catpuccin frappe */
+    --base: #303446;
+    --mantle: #292c3c;
+    --crust: #232634;
 }
 
-#content {
-    background: #8693AB;
-    border-radius: 2rem;
-    display: grid;
-    grid-template-columns: 35% 65%;
+body {
+    background: var(--base);
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5em;
+    height: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#links li {
     height: 100%;
-    width: 100%;
 }
 
-#about-me-wrapper {
-    padding: 5rem;
-    border-radius: 2rem;
-}
-
-#about-me-wrapper {
+.link {
     height: 100%;
+}
+
+main {
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
     width: 100%;
-    background: #fff;
+    padding: 1rem;
 }
 
 #profile-pic {
-    width: 100%;
+    width: 20em;
+    border-radius: 10rem;
+}
+
+#me-desc {
+    padding: 4rem;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
 }
