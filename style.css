@@ -146,6 +146,10 @@ a {
     height: auto;
 }
 
+.link:hover {
+    cursor: pointer;
+}
+
 .cult-desc {
     color: var(--subtext1);
     font-size: 1.15em;
